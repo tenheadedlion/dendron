@@ -27,6 +27,11 @@ export type CommandInput = {
   fname: string;
 };
 
+export type ExecuteData = {
+  templateCreated: boolean;
+  schemaCreated: boolean;
+};
+
 export class CreateNoteWithTraitCommand extends BaseCommand<
   CommandOpts,
   any,
