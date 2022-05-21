@@ -1,5 +1,4 @@
 import {
-  ABTest,
   ConfigUtils,
   DailyJournalTestGroups,
   DVault,
